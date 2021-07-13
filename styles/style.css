@@ -108,7 +108,7 @@ height: 677px; */
     font-size: 16px;
 }
 
-/* Image Section End */
+/*Players Image and Details Section End */
 
 /* Math Highlights Section Start */
 
@@ -127,3 +127,35 @@ height: 427px;
 .half-width{
     width: 50%;
 }
+
+/* Math Highlights Section End */
+
+/* Footer Section Start */
+
+footer{
+    width: 483.87px;
+    height: 213px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-top: 154px;
+    margin-bottom: 63px;
+}
+/* Footer Banner */
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+/* Social Media icon resize */
+.social-icon{
+    text-align: center;
+    color:grey;
+    margin: 20px 156.94px 20px 156.94px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+/* Copyright part */
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Footer Section End */
