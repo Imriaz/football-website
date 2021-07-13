@@ -65,59 +65,65 @@ height: 677px; */
     padding: 30px;
 }
 
-/* First Three Players */
 
-/* 3 player in one column */
-.first-three-players, .second-three-players{
+/* each 3 player in one column */
+.first-three-players, .second-three-players, .third-three-players, .fourth-three-players{
     margin-top:40px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap:30px;
     margin-bottom: 27px;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-items: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    justify-content: center;
 }
 
-
-/* eacch Player in single border area */
-/* First Player Box */
-.first-player{
-    width: 330px;
-height: 474px;
-background-color: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-padding: 15px;
-}
-/* Second Player Box */
-.second-player{
-    width: 330px;
-height: 474px;
-background-color: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-padding: 15px;
-}
-/* Thired Player Box */
-.third-player{
-    width: 330px;
-height: 474px;
-background-color: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-padding: 15px;
-}
 .player{
     width: 330px;
-height: 474px;
-background-color: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-padding: 15px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Players Image resize */
 .image img{
     width: 300px;
-height: 256px;
+    height: 256px;
+    margin: 15px 15px 1px 15px;
 }
-.player-details{
+/* PLayers Details Part */
+.players-details{
     width: 300px;
-height: 154px;
+    height: 154px;
+    margin: 15px 15px 33px 15px;
+}
+
+/* Players Names font Size */
+.player-name{
+    font-size: 28px;
+    margin: 16px 0px 10px 0px;
+}
+/* Players Details font Size */
+.player-details-font{
+    font-size: 16px;
+}
+
+/* Image Section End */
+
+/* Math Highlights Section Start */
+
+/* Display Flex for show highlights details and banners */
+.match-highlights{
+    display: flex;
+}
+
+/* Highlights banner resize */
+.highlights-banner{
+    width: 567px;
+height: 427px;
+}
+
+/* Half width calculation for highlights section */
+.half-width{
+    width: 50%;
 }
