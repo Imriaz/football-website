@@ -1,0 +1,123 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top Header Main Design */
+.top-header{
+background-color: #2D25A0;
+/* width: 1440px;
+height: 677px; */
+}
+/* Navigation Menu */
+
+/* Header Title and Image Section */
+.top-section{
+    display: flex;
+}
+
+/* Header Title */
+.header-title{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 156px;
+    margin-top: 207px;
+
+}
+
+/* Watch Live Button */
+.watch-button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    /* margin-left: 156px;
+    margin-top: 464px; */
+
+}
+/* Top Banner Image Background */
+.top-banner img{
+    /* background-image: url(images/banner.png); */
+    width: 556.01px;
+    height: 438px;
+    /* margin-top:153px;
+    margin-right: 145px;
+    margin-left: 743px;
+    margin-bottom: 86px; */
+}
+
+/* Header Section End */
+
+/* Body Section Start */
+/* Body Background Design */
+
+/* Players List and Details */
+.container{
+    background-color:#FFFFFF;
+    /* width: 1440px;
+    height: 3750px; */
+    padding: 30px;
+}
+
+/* First Three Players */
+
+/* 3 player in one column */
+.first-three-players, .second-three-players{
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    margin-bottom: 27px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* eacch Player in single border area */
+/* First Player Box */
+.first-player{
+    width: 330px;
+height: 474px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+padding: 15px;
+}
+/* Second Player Box */
+.second-player{
+    width: 330px;
+height: 474px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+padding: 15px;
+}
+/* Thired Player Box */
+.third-player{
+    width: 330px;
+height: 474px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+padding: 15px;
+}
+.player{
+    width: 330px;
+height: 474px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+padding: 15px;
+}
+
+.image img{
+    width: 300px;
+height: 256px;
+}
+.player-details{
+    width: 300px;
+height: 154px;
+}
