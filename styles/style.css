@@ -4,6 +4,7 @@
 /* Common Style */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 /* Top Header Main Design */
@@ -68,6 +69,9 @@ height: 677px;
 
 .top-banner{
     display: flex;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
     
 } 
 
@@ -112,6 +116,13 @@ height: 677px;
 
 .second-half img{
     width: 100%;
+}
+
+/* Second Image Hover */
+.second-half:hover{
+    
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
 }
 
 /* Watch Live Button */
@@ -223,6 +234,48 @@ footer{
     margin-top: 154px;
     margin-bottom: 63px;
 }
+
+/* footers 1st part designed Start (about us part) */
+/* used flex  */
+.footer-main-content{
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    padding: 45px;
+    padding-left: 100px;
+    align-items: center;
+}
+.left,.center,.right{
+    width: 31%;
+}
+.footer-main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.place,.phone,.email,.text{
+    margin-bottom: 15px;
+}
+.about-footers-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    Width: 484px;
+    Height: 213px;
+    margin-left: 475px;
+    margin-right: 482px;
+    margin-bottom: 61px;
+    margin-top: 60px;
+}
+
+/* footers 1st part designed End(about us part) */
+
 /* Footer Banner */
 footer img{
     width: 483.87px;
@@ -242,3 +295,138 @@ footer img{
     margin-top: 20px;
 }
 /* Footer Section End */
+
+
+/*--------------
+ Media Queries 
+ ---------------*/
+
+ /* Mobile Device */
+
+ @media only screen and (max-width: 688px) {
+   
+    .top-banner{
+     flex-direction: column;
+     width: 360px;
+     height: 695px;
+     margin-left: 0px;
+     margin-top: 0px;
+    }
+ 
+    .first-half{
+     
+     width: 278px;
+     height: 138px;
+     margin-left: 16px;
+     margin-top: 112px;
+     
+ }
+ 
+ .second-half{
+     width: 329px;
+     height: 259.17px;
+     margin-left: 15px;
+     margin-top: 374px;
+     margin-bottom: 61.83px;
+     
+    
+ }
+ 
+ .second-half:hover{
+     
+     transform: rotate(360deg);
+     transition: transform 2s ease-in-out;
+ }
+ 
+ .first-button{ 
+     margin-left: 19px;   
+ }
+ 
+    .first-three-players, .second-three-players, .third-three-players, .fourth-three-players{
+     grid-template-columns: repeat(1  ,1fr) ;
+     margin: 0px 15px 24px 15px;
+     
+    }
+
+    .footer-main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left,.center,.right{
+        margin-bottom: 30px;
+    }
+    .footer-contents{
+        width: 100%;
+        margin: 10px;
+    }
+
+
+    /* .footer-image{
+     width: 75px;
+     height: 63px;
+     margin-left: 1px;
+     margin-top: 43px;
+        
+    }
+ 
+    .footer-icons{
+     width: 170px;
+     height: 32px;
+     margin-left: 95px;
+     margin-right: 95px;
+     
+    } */
+ 
+ 
+ }
+/* Tablet Devices */
+/* @media only screen and (min-width:688px) and (max-width:992px){
+   .container{
+       width: 100%;
+   }
+   .players, .blog, .courses{
+       grid-template-columns: repeat(2,1fr);
+       }
+   
+} */
+
+/* responsive design starts */
+/* mediaquery */
+
+/* tablet device */
+/* @media only screen and (min-width:688px) and (max-width:992px) {
+    .container-section{
+        width: 100%;
+        height: auto;
+    }
+    .top-content h1{
+        margin: 5px;
+    }
+    .top-content, .banner-image img{
+        width: 80%;
+        margin: 15px;
+    }
+        .top-banner{
+            grid-template-columns: repeat(1,1fr);
+            background-color: #2D25A0;
+            justify-content: center;
+            width: 100%;
+    }
+    .blogs,.testimonial{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+}
+    .footer-main-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .left,.center,.right{
+        margin-bottom: 30px;
+    }
+    .footer-contents{
+        width: 100%;
+        margin: 40px;
+    }
+} */
