@@ -224,17 +224,6 @@ height: 427px;
 
 /* Math Highlights Section End */
 
-/* Footer Section Start */
-
-footer{
-    width: 483.87px;
-    height: 213px;
-    margin-left: 475px;
-    margin-right: 481.13px;
-    margin-top: 154px;
-    margin-bottom: 63px;
-}
-
 /* footers 1st part designed Start (about us part) */
 /* used flex  */
 .footer-main-content{
@@ -244,6 +233,7 @@ footer{
     padding: 45px;
     padding-left: 100px;
     align-items: center;
+    margin-top: 50px;
 }
 .left,.center,.right{
     width: 31%;
@@ -276,6 +266,49 @@ footer{
 
 /* footers 1st part designed End(about us part) */
 
+/* Newslatter Section DEsign Start */ 
+/* Form Border*/
+.news-latter{
+    margin-top: 50px;
+    border: 2px solid white;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .form-container {
+      width: 50%;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .form-submit-button{
+    width: 50%;
+    background-color:limegreen;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+  }
+/* Newslatter Section DEsign End */ 
+
+/* Footer Section Start */
+footer{
+    width: 483.87px;
+    height: 213px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-top: 154px;
+    margin-bottom: 63px;
+}
 /* Footer Banner */
 footer img{
     width: 483.87px;
@@ -319,8 +352,7 @@ footer img{
      height: 138px;
      margin-left: 16px;
      margin-top: 112px;
-     
- }
+     }
  
  .second-half{
      width: 329px;
@@ -328,25 +360,21 @@ footer img{
      margin-left: 15px;
      margin-top: 374px;
      margin-bottom: 61.83px;
-     
-    
- }
+     }
  
  .second-half:hover{
-     
      transform: rotate(360deg);
      transition: transform 2s ease-in-out;
- }
+    }
  
  .first-button{ 
      margin-left: 19px;   
- }
+    }
  
     .first-three-players, .second-three-players, .third-three-players, .fourth-three-players{
      grid-template-columns: repeat(1  ,1fr) ;
      margin: 0px 15px 24px 15px;
-     
-    }
+     }
 
     .footer-main-content{
         display: flex;
@@ -361,8 +389,7 @@ footer img{
         margin: 10px;
     }
 
-
-    /* .footer-image{
+    .footer-image{
      width: 75px;
      height: 63px;
      margin-left: 1px;
@@ -376,57 +403,9 @@ footer img{
      margin-left: 95px;
      margin-right: 95px;
      
-    } */
- 
- 
+    }
  }
-/* Tablet Devices */
-/* @media only screen and (min-width:688px) and (max-width:992px){
-   .container{
-       width: 100%;
-   }
-   .players, .blog, .courses{
-       grid-template-columns: repeat(2,1fr);
-       }
-   
-} */
-
-/* responsive design starts */
-/* mediaquery */
-
-/* tablet device */
-/* @media only screen and (min-width:688px) and (max-width:992px) {
-    .container-section{
-        width: 100%;
-        height: auto;
-    }
-    .top-content h1{
-        margin: 5px;
-    }
-    .top-content, .banner-image img{
-        width: 80%;
-        margin: 15px;
-    }
-        .top-banner{
-            grid-template-columns: repeat(1,1fr);
-            background-color: #2D25A0;
-            justify-content: center;
-            width: 100%;
-    }
-    .blogs,.testimonial{
-        grid-template-columns: repeat(2,1fr);
-        justify-content: center;
-}
-    .footer-main-content{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-content: center;
-    }
-    .left,.center,.right{
-        margin-bottom: 30px;
-    }
-    .footer-contents{
-        width: 100%;
-        margin: 40px;
-    }
-} */
+ 
+ /*--------------
+ Media Queries End
+ -----------------*/
